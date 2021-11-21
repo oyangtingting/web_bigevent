@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f2f3f5;
+  padding: 20px;
+}
+.layui-input-block {
+  width: 500px;
+}

@@ -33,7 +33,7 @@ function getUserInfo() {
 
   })
   function renderAvatar(user) {
-    var name = user.nikname || user.username;
+    var name = user.nickname || user.username;
     console.log(name);
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
     if(user.user_pic !== null) {
